@@ -198,7 +198,7 @@ public class Podometro
         System.out.print("\n\n Estadísticas");
         System.out.print("\n ***************************");
         
-        System.out.print("\n Distancia recorrida toda la semana: " + totalDistanciaSemana + " Km");
+        System.out.print("\n Distancia recorrida toda la semana: " + (totalDistanciaSemana + totalDistanciaFinSemana) + " Km");
         System.out.print("\n Distancia recorrida fin de semana: " + totalDistanciaFinSemana + " Km");
         
         System.out.print("\n");
