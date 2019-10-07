@@ -53,10 +53,10 @@ public class DemoPodometro {
     }
 
     private void printMarca() {
-        System.out.println("*****************************************");
-        System.out.println("*******    Podómetro " + podometro.getMarca().toUpperCase()
-            + "       *******");
-        System.out.println("*****************************************\n");
+        System.out.println(" *****************************************");
+        System.out.println(" *******     Podómetro  " + podometro.getMarca().toUpperCase()
+            + "     *******");
+        System.out.println(" *****************************************\n");
     }
 
     private void configurar(double altura, char sexo) {
@@ -81,7 +81,7 @@ public class DemoPodometro {
     private void mostrarEstadisticas() {
 
         podometro.printEstadísticas();
-        System.out.print("Día/s con más pasos caminados: "
+        System.out.print(" Día/s con más pasos caminados: "
             + podometro.diaMayorNumeroPasos());
 
     }
@@ -91,7 +91,7 @@ public class DemoPodometro {
      */
     private void pausa() {
 
-        System.out.println("\n\nPulse <Intro> para continuar");
+        System.out.println("\n\n Pulse <Intro> para continuar");
         teclado.nextLine();
         System.out.println("\u000C");
     }
