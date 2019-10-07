@@ -32,8 +32,8 @@ public class DemoPodometro {
         int[] pasos = { 8900, 7000, 10000, 12700, 4580, 15000, 2000, 2000, 7000,
                 6000 };
         int[] dias = { 1, 2, 4, 5, 5, 6, 6, 7, 7, 7 };
-        int[] horasInicio = { 1850, 2210, 1300, 1730, 2217, 1900, 2230, 915, 1345, 1835 };
-        int[] horasFin = { 1950, 2345, 1400, 1915, 2310, 2100, 2310, 1000, 1500, 1930 };
+        int[] horasInicio = { 1850, 2210, 1300, 1730, 2217, 1900, 2230,  915, 1345, 1835 };
+           int[] horasFin = { 1950, 2345, 1400, 1915, 2310, 2100, 2310, 1000, 1500, 1930 };
         registrarCaminatas(pasos, dias, horasInicio, horasFin);
         mostrarEstadisticas();
 
@@ -45,8 +45,8 @@ public class DemoPodometro {
         configurar(185, 'H');
         pasos = new int[] { 2340, 4500, 5000, 2000, 3000, 3000 };
         dias = new int[] { 2, 3, 4, 4, 7, 7 };
-        horasInicio = new int[] { 2215, 1820, 1000, 2055, 930, 2215 };
-        horasFin = new int[] { 2330, 1935, 1045, 2230, 1020, 2310 };
+        horasInicio = new int[] { 2215, 1820, 1000, 2055,  930, 2215 };
+           horasFin = new int[] { 2330, 1935, 1045, 2230, 1020, 2310 };
         registrarCaminatas(pasos, dias, horasInicio, horasFin);
         mostrarEstadisticas();
 
