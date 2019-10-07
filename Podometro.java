@@ -4,11 +4,12 @@
  * ha dado en una semana. 
  * 
  * @author  Daniel Marín
- * @version  1.2
+ * @version  1.2.1
  */
+
 public class Podometro
 {
-    /** ----- Constantes y Atributos ----- **/
+    /** ------- Constantes y Atributos ------- **/
 
     private final char HOMBRE = 'H';
     private final char MUJER  = 'M';
@@ -19,7 +20,7 @@ public class Podometro
     private final int SABADO  = 6;
     private final int DOMINGO = 7;
 
-    // ----- //
+    // ------- //
 
     private String marca;
 
@@ -37,7 +38,7 @@ public class Podometro
     private int tiempo;
     private int caminatasNoche;
 
-    /** ----- Constructor ----- **/
+    /** ------- Constructor ------- **/
 
     /**
      * Inicializa el podómetro con la marca indicada por el parámetro.
@@ -63,7 +64,7 @@ public class Podometro
         caminatasNoche = 0;
     }
 
-    /** ----- Métodos ----- **/
+    /** ------- Métodos ------- **/
 
     /**
      * Devuelve la marca del podómetro
@@ -140,7 +141,7 @@ public class Podometro
             }
         }
 
-        // ----- //
+        // ------- //
         
         int calc_horaInicio = horaInicio / 100;
         int calc_minutoInicio = horaInicio % (calc_horaInicio * 100);
@@ -161,7 +162,7 @@ public class Podometro
             tiempo += ((calc_horaFin - calc_horaInicio - 1) * 60) + (60 + calc_minutoFin - calc_minutoInicio);
         }
         
-        // ----- //
+        // ------- //
         
         if(calc_horaInicio > 20)
         {
@@ -260,5 +261,7 @@ public class Podometro
         tiempo = 0;
         caminatasNoche = 0;
     }
+    
+    /** ------- ------- ------- **/
 }
 

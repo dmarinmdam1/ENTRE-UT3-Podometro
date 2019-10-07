@@ -3,8 +3,6 @@ import java.util.Scanner;
 /**
  *  class DemoPodometro  
  *  Clase para testear la clase Podometro
- *  
- *  
  */
 public class DemoPodometro {
 
